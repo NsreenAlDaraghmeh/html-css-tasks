@@ -1,75 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-        #flex-container {
-  display: flex;
-  border: 7px solid rgb(221, 173, 51);
-  width: 100%px;
-  height: 800px;
-  font-size: 100px;
-  text-align: center;
-  color: white ;
-  
+      * {
+        box-sizing: border-box;
+      }
+      .container {
+        background-color: rgb(202, 132, 3);
+        display: flex;
+        flex-wrap: wrap;
+        height: 97vh;
+        justify-content: stretch;
+        padding: 10px;
+      }
+      .item {
+        flex-grow: 1;
+        color: white;
+        text-align: center;
+        font-size: 60px;
+      }
+      @media only screen and (min-width: 0px) and (max-width: 480px){
+        .item{
+          width: 100%;
         }
-            #flex-container div:nth-of-type(1) {flex-grow: 1;}
-            #flex-container div:nth-of-type(2) {flex-grow: 1;}
-            #flex-container div:nth-of-type(3) {flex-grow: 1;}
-            #flex-container div:nth-of-type(4) {flex-grow: 1;}
-            #flex-container div:nth-of-type(5) {flex-grow: 1;}
-            #flex-container div:nth-of-type(6) {flex-grow: 1;}
-            #flex-container div:nth-of-type(7) {flex-grow: 1;}
-            #flex-container div:nth-of-type(8) {flex-grow: 1;}
-            #flex-container div:nth-of-type(9) {flex-grow: 1;}
-  
-      
-        #a1{
-            background-color: green;
+      }
+      @media only screen and (min-width: 481px) and (max-width: 768px){
+        .item{
+          width: 33.3%;
         }
-        #a2{
-            background-color: yellow;
-        }
-        #a3{
-            background-color: purple;
-        }
-        #a4{
-            background-color: gray;
-        }
-        #a5{
-            background-color: blue;
-        }
-        #a6{
-            background-color: orange;
-        }
-        #a7{
-            background-color: pink;
-        }
-        #a8{
-            background-color: red;
-        }
-        #a9{
-            background-color: brown;
-        }
+      }
+
+      .one {
+        background-color: green;
+      }
+      .two {
+        background-color: yellow;
+      }
+      .three {
+        background-color: purple;
+      }
+      .four {
+        background-color: gray;
+      }
+      .five {
+        background-color: blue;
+      }
+      .six {
+        background-color: orange;
+      }
+      .seven {
+        background-color: pink;
+      }
+      .eight {
+        background-color: red;
+      }
+      .nine {
+        background-color: brown;
+      }
     </style>
-</head>
-<body>
-    <div id="flex-container">
-        <div id="a1">1</div>
-        <div id="a2">2</div>
-        <div id="a3">3</div>
-        <div id="a4">4</div>
-        <div id="a5">5</div>
-        <div id="a6">6</div>
-        <div id="a7">7</div>
-        <div id="a8">8</div>
-        <div id="a9">9</div>
- 
-      </div>
-      
-      
-</body>
+  </head>
+  <body>
+    <div class="container">
+      <div class="one item">1</div>
+      <div class="two item">2</div>
+      <div class="three item">3</div>
+      <div class="four item">4</div>
+      <div class="five item">5</div>
+      <div class="six item">6</div>
+      <div class="seven item">7</div>
+      <div class="eight item">8</div>
+      <div class="nine item">9</div>
+    </div>
+  </body>
 </html>
