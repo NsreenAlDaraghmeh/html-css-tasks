@@ -1,0 +1,64 @@
+body{
+    margin-left: 25px;
+}
+
+div{
+    border: 1px solid black;
+    width: 446px;
+    height: 330px;
+    display: inline-block;
+    margin-right: 25px;
+
+
+}
+.a{
+    background-image: url(x.PNG);
+    background-size: cover;
+}
+.a8{
+    background-image: url(xx.PNG);
+    background-size: cover;
+}
+.a2{
+    background-image: url(xxx.PNG);
+    background-size: cover;
+}
+.a3{
+    background-image: url(xxxx.PNG);
+    background-size: cover;
+}
+.a4{
+    background-image: url(xxxxx.PNG);
+    background-size: cover;
+}
+.a5{
+    background-image: url(xxxxxx.PNG);
+    background-size: cover;
+}
+.a6{
+    background-image: url(xxxxxxx.PNG);
+    background-size: cover;
+}
+.a7{
+    background-image: url(xxxxxxxx.PNG);
+    background-size: cover;
+}
+@media screen and (min-width: 481px) and (max-width: 768px){
+    div{
+      width: 203px;
+      height: 280px;
+      margin-bottom: 20px;
+    }
+    body{
+        margin-left: 45px;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 480px) {
+    div{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+}
+
+
