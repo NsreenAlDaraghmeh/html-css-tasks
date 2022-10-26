@@ -16,14 +16,11 @@
   grid-template-columns: 25% 25% 25% 25%;
         }
         @media only screen and (min-width: 0px) and (max-width: 480px){
-        .grid-item{
-          width: 100%;
-        
-          grid-template-columns: repeat(1,auto);
-           grid-template-rows: repeat(10,250px);}
+        #grid-container{
+          grid-template-columns: 100%;}}
           @media only screen and (min-width: 481px) and (max-width: 768px){
-        .grid-item{
-          grid-template-columns: 33.3% 33.3% 33.3% 33.3%;
+        #grid-container{
+          grid-template-columns: 33.3% 33.3% 33.3% ;
           ;
         }
     }
