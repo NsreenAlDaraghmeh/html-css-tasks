@@ -1,0 +1,603 @@
+
+
+/* nav ba r  */
+.nav-item {
+    transition: .3s;
+}
+.nav-item:hover{
+   transform: scale(1.09);
+   background-color:#FBF7F9;
+}
+/* nav bar  */
+
+
+#header{
+    background-color: #FBF7F9;
+    /* height: 500px; */
+}
+.grid{
+    display: grid;
+    grid-template-columns: 40% 30% 30%;
+    grid-row: 50px 50px 50px;
+}
+.text{
+    padding-top: 20px;
+}
+#header{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+}
+#nsreen{
+    transition: .3s;
+}
+#nsreen:hover {
+    transform: scale(1.09);
+    background-color:#FBF7F9;
+}
+#text{
+    width: 50%;
+    padding-top: 12%;
+    color: #469597;
+    font-size: 50px;
+}
+ #img{
+   border-image : url(s.jpg) ;
+    height: 95%;
+   border-radius: 50%;
+ 
+} 
+
+#button{
+    border-color: #469597;
+   height: 50px;
+   width: 90px;
+    border-radius: 10%;
+    font-weight: bold;
+    font-size: 20px;
+    color: #469597;
+    
+}
+#button:hover{
+    transform: scale(1.09);
+    background-color:#FBF7F9;
+}
+#button:hover{
+    transition: .3s;
+
+}
+#div-2{
+    background-color: #FBF7F9;
+    display: flex;
+    flex-wrap: wrap;
+    /* height: 400px; */
+}
+#div-3{
+    display: flex;
+    flex-direction: row;
+    text-align:center;
+    padding-top: 5px;
+    padding-left: 200px;
+    
+}
+
+#ed{
+    width: 100%;
+    text-align: center;
+    color: #469597;
+    
+}
+#img-2{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    
+}
+
+#text-1{
+    padding-left: 200px;
+    text-align: left;
+    font-size: 25px;
+}
+#div-4{
+background-color: #FBF7F9;
+/* height: 400px; */
+}
+#my{
+    text-align: center;
+    color: #469597;
+}
+#skills-1{
+    display:flex;
+    flex-direction: row;
+    text-align: center;
+    padding-left: 200px;
+}
+
+
+
+  #div-5{
+    /* height: 400px; */
+    
+  } 
+#cer{
+    text-align: center;
+    color: #469597;
+}
+#exp{
+    display:flex;
+    flex-direction: row;
+    text-align: center;
+    
+     padding-left: 240px; 
+}
+#skills-2{
+        
+        text-align: left;
+        color: #469597;
+        font-size: 20px;
+        margin-left: 90px;
+        /* padding-right: 50px; */
+    
+}
+#skills-3{
+    
+        text-align: left;
+        color: #469597;
+        font-size: 20px;
+    padding-right: 120px;
+}
+    #exp-1{
+        text-align: left;
+        color: #469597;
+        font-size: 20px;
+        margin-left: 60px;
+    
+      
+    }
+    #exp-2{
+        text-align: left;
+        color: #469597;
+        font-size: 20px;
+        margin-left: 70px;  
+    padding-left: 30px;
+                    }
+        #exp{
+            padding-top: 15px;
+        }
+    #div-6{
+        background-color: #FBF7F9;
+        /* height: 400px; */
+    }
+    #lang{
+        color: #469597;
+        text-align: center;
+    }
+    #lan{
+        display: flex;
+        flex-direction: row;
+         text-align:center; 
+        padding-top: 5px;
+       padding-left: 360px;
+    }
+    #ar{
+        color: #469597;
+        font-size: 20px;
+        padding-right: 90px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    #ar .lang-skill {
+        height: 60px;
+       display: flex;
+       align-items: center;
+       gap: 30px;
+    }
+    #ar .lang-skill p {width: 100px;}
+    #file{
+        height: 20px;
+    }
+    #en{
+        color: #469597;
+        font-size: 20px;
+        padding-left: 190px;
+       
+    }
+    #div-7{
+        background-color: #FBF7F9;
+        padding-top: 10px; 
+        padding-bottom: 30px;
+    }
+    /* references sextion */
+    #ref{
+        color: #469597;
+        text-align:center;
+    }
+    #refe{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-around;
+    }
+
+    
+    #refe .box {
+        box-shadow: 5px 5px 10px gray;
+        width: 25%;
+        border-radius: 10px;
+        text-align: center;
+        justify-content: space-between;
+        padding-top: 20px;
+    }
+   
+    
+    #refe div .content {
+        padding: 20px;
+        width: 100%;
+        
+    }
+    .content{
+        padding-left: 20px;
+    }
+
+    #cont{
+        color:#DDBEAA;
+        text-align:center;
+    }
+    
+    #hal:hover{
+        transform: scale(1.09);
+   background-color:#f2e1d5;
+    }
+    #hal{
+        transition: .3s;
+
+    }
+    .hh{
+        color: #469597;
+        font-size: larger;
+        text-align: left;
+    }
+
+    #ala:hover{
+        transform: scale(1.09);
+        background-color:#f2e1d5;
+    }
+    #ala{
+        transition: .3s;
+
+    }
+    .img-3{
+        height: 150px;
+        border-radius: 50%;
+        
+    }
+   
+    #div-8{
+        background-color:#469597;
+        /* height: 400px;  */
+    }
+    
+    #ct{
+        display: flex;
+        flex-direction: row;
+        padding-top: 20px;
+        font-size: larger;
+        font-weight: bold;
+        color: white;
+    }
+    #ns{
+        padding-left: 230px;
+        
+    }
+    #nes{
+        padding-left: 230px;
+    }
+    #my-1{
+        color: white;
+        font-size: larger;
+        /* padding-top: 25px; */
+        text-align: center;
+        font-weight: bold;
+        padding-left: 190px;
+    }
+  
+ #my-2{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-left: 60px;
+ }
+ @media only screen and (min-device-width: 481px) and (max-device-width: 768px){
+
+    #img-2{
+        
+        border-radius: 50%;
+          padding-right: 50%;  
+    }
+    #picture-2{
+         width:20%; 
+        /* padding-right: 25%;   */
+        height: 30%;
+        
+    }
+    #div-3{
+        width: 100%;
+        padding-right: 40%;
+    }
+    
+    #text-1{
+        width: 70%;
+        /* margin-left: 20%; */
+        /* padding-right: 1000px; */
+        text-align: left;
+        font-size: 20px;
+    }
+    #hm{
+margin-bottom: 10%;    }
+ }
+ #skills-1{
+    text-align: center;
+    
+    padding-right: 100px;
+ }
+ #exp{
+    padding-left: 10%;
+    padding-right: 200px; 
+
+ }
+
+#exp-2{
+    margin-right: 30%;
+}
+#exp-1{
+padding-right:40%;
+}
+ #div-1 , #div-2 , #div-3 , #div-4 , #div-5 , #div-6 , #div-7 , #div-8 {
+    padding-bottom: 5rem;
+}
+#header{
+    padding-bottom: 2rem;
+}
+#lan{
+    padding-left: 1%;
+    margin-top: 7%;
+}
+#refe{
+    margin-top: 7%;
+}
+.box
+
+    /* #header{
+        flex-direction: column;
+        gap: 2px;
+        height: 40%;
+        width: 100%;
+    }
+    #div-3{
+         flex-direction: column;  */
+       /* padding-right: 400px;  */
+     
+/*      
+    }
+    #text-1{
+     padding-right: 300px;
+    }
+    #skills-1{ */
+        /* flex-direction: column; */
+        /* margin-right: 200px;
+    } */
+    /* #exp{ */
+        /* flex-direction: column; */
+    /* }
+    #lan{
+        flex-direction: column; 
+        padding-right: 80px;
+    }
+   #ct{
+    justify-content: space-around;
+   } */
+    /* #ed{
+        flex-direction: column;
+        gap: 20px;
+        text-align:center;
+        padding-top: 5px;
+        height: 900px; 
+        width: 100%;
+        justify-content: space-around;
+    } */
+    /* #refe {
+        flex-direction: column;
+        gap :20px ;
+    }
+    #refe .box{
+        width: 100%;
+    }
+    #header{flex-direction: column;
+    gap: 20px;
+    }
+    #div-2{
+        padding-right: 80px;
+        height: 900px;
+        gap: 4px;
+        width: 100%;
+    }
+    
+    #picture-2{
+        text-align: center;
+        /* padding-right: 900px; */
+    /* }
+    #div-3{
+        display: flex;
+    flex-direction: column;
+    text-align:center;
+    padding-top: 5px;
+padding-right: 150px;
+justify-content: space-around;    }
+
+#img-2{
+    text-align: center;
+}
+   */
+    /* #div-4{
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    } */
+    /* #skills-1{
+        display:flex;
+    flex-direction: column;
+    text-align: center; */
+/* width: 100%;    } */
+/* }
+#exp{
+    flex-direction: column;
+    gap: 50px;
+}
+#lan{
+    flex-direction: column;
+    height: 450px; */
+    /* padding-right: 100px; */
+/* }
+#ar{
+    flex-direction: column;
+}
+ #exp{
+text-align: center;
+text-align: center;}
+#refe{
+    width: 100%;
+}
+.box{
+text-align: left;
+}
+#ct{
+    flex-direction: column;
+    text-align: left;
+    height: 400px;
+}
+#my-1{
+padding-right: 80px;    text-align: left;
+    height: 200px;
+    background-color: #469597;
+    color: white;
+} */
+ /* }
+
+
+
+
+
+
+
+ @media (max-width : 480px){
+    #refe {
+        flex-direction: column;
+        gap :20px ;
+    }
+    #refe .box{
+        width: 100%;
+    }
+    #header{flex-direction: column;
+    gap: 20px;
+    }
+    #div-2{
+        padding-right: 200px;
+        height: 900px;
+        gap: 4px;
+    }
+    #ed{
+        flex-direction: column;
+        gap: 20px;
+        text-align:center;
+        padding-top: 5px; */
+        /* padding-right: 40%; */
+        /* height: 700px; 
+        justify-content: center;
+    }
+    #picture-2{
+        text-align: center; */
+        /* padding-right: 900px; */
+    /* }
+    #div-3{
+        display: flex;
+    flex-direction: column;
+    text-align:center;
+    padding-top: 5px;
+padding-right: 150px;
+justify-content: space-around;    }
+#text-1{
+    padding-right: 170px;
+}
+#img-2{
+    text-align: center;
+}
+   */ 
+    /* #div-4{
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    } */
+    /* #skills-1{
+        display:flex;
+    flex-direction: column;
+    text-align: center; */
+/* width: 100%;    } */
+/* }
+#exp{
+    flex-direction: column;
+    gap: 50px;
+}
+#lan{
+    flex-direction: column;
+    height: 450px; */
+    /* padding-right: 100px; */
+
+/* #exp{
+text-align: center;
+text-align: center;}
+#refe{
+    width: 100%;
+}
+.box{
+text-align: left;
+}
+#ct{
+    flex-direction: column;
+    text-align: left;
+    height: 400px;
+}
+#my-1{
+padding-right: 80px;    text-align: left;
+    height: 200px;
+    background-color: #469597;
+    color: white;
+} */ 
+
+@media only screen and (min-device-width: 0px) and (max-device-width: 480px){
+
+    #div-7
+    [
+        flex-direction: ;
+    ]
+    #refe
+    [
+        flex-direction: columns:;
+    ]
+   #ct{
+    flex-direction: columns: ;;
+   }
+
+    #skills-1{
+        flex-direction: column;
+    }
+    #exp{
+        flex-direction: column;
+    }
+}
+
